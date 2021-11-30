@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Nunito Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+body * {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.project {
+  position: relative;
+  background: #131313;
+}
+.project-container {
+  padding-top: 107px;
+  padding-right: 134px;
+  padding-left: 134px;
+  padding-bottom: 90px;
+  position: relative;
+}
+.project-navigation {
+  padding-left: 492px;
+  display: flex;
+  list-style: none;
+}
+.project-navigation-item {
+  margin-right: auto;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.project-navigation-item-text {
+  text-decoration: none;
+  color: white;
+}
+.project-navigation-item-text:hover {
+  color: #e3b873;
+}
+.subnav {
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.subnav:hover {
+  color: #e3b873;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #e3b873;
+  border-top: 0;
+  line-height: 32px;
+}
+.project-content {
+  display: flex;
+}
+.project-content-left {
+  margin-right: 50px;
+}
+.project-content-left-subblock {
+  display: flex;
+  width: 442px;
+  flex-wrap: wrap;
+}
+.project-content-left-subblock-text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  flex-direction: column;
+  width: 50%;
+}
+.project-icons {
+  padding-top: 80px;
+}
+.project-content-left-h2 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+
+  color: #e3b873;
+}
+.project-content-left-text {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.project-content-left-descr {
+  max-width: 442px;
+}
+.project-content-left-h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+
+  color: #e3b873;
+}
+.project-span {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.arrow-left {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.arrow-right {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.vector {
+  margin-right: 17px;
+  cursor: pointer;
+}
+
+.project-image-right {
+  display: block;
+}
